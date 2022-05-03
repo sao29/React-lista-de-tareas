@@ -1,0 +1,58 @@
+.CreateTodoButton{
+    /* background-color: #61DAFA;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+  
+    transform: rotate(0);
+    transition: 1s ease;
+  }
+
+  .CreateTodoButtom:hover{
+    transform: rotate(224deg);
+    box-shadow: 0px 0px 0px 5px white;
+  }
+
+  
+   */
+
+
+   box-shadow: 0px 0px 0px 0px #080808;
+   background:linear-gradient(to bottom, #d46060 5%, #3d2d2c 100%);
+   background-color:#d46060;
+   border-radius:42px;
+   display:inline-block;
+   cursor:pointer;
+   color:#ffffff;
+   font-family:Arial;
+   font-size:25px;
+   font-weight:bold;
+   padding:20px 25px;
+   text-decoration:none;
+   text-shadow:0px 1px 0px #ffd000;
+   transform: rotate(0);
+   transition: 0.3s ease;
+   z-index: 10;
+ }
+ 
+ .CreateTodoButton:hover {
+  background:linear-gradient(to bottom, #3d2d2c 5%, #d46060 100%);
+	background-color:#3d2d2c;
+   transform: rotate(224deg);
+ }
+ .CreateTodoButton:active{
+  position:relative;
+	top:1px;
+ }
